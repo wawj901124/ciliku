@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="287f7510-781b-48ae-9a9f-b61c41d0be33" name="Default Changelist" comment="适配django2.1的xadmin">
-      <change beforePath="$PROJECT_DIR$/ciliku/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciliku/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="287f7510-781b-48ae-9a9f-b61c41d0be33" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,10 +31,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/extra_apps/xadmin/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -86,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612060692112</updated>
       <workItem from="1612060693682" duration="3677000" />
-      <workItem from="1612064896564" duration="6804000" />
+      <workItem from="1612064896564" duration="6983000" />
     </task>
     <task id="LOCAL-00001" summary="适配django2.1的xadmin">
       <created>1612071388232</created>
@@ -95,13 +93,30 @@
       <option name="project" value="LOCAL" />
       <updated>1612071388232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="适配django2.1的xadmin">
+      <created>1612071972430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612071972430</updated>
+    </task>
+    <task id="LOCAL-00003" summary="适配django2.1的xadmin">
+      <created>1612072042892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612072042892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/app/ciliku" />
+    </ignored-roots>
     <MESSAGE value="适配django2.1的xadmin" />
     <option name="LAST_COMMIT_MESSAGE" value="适配django2.1的xadmin" />
   </component>
@@ -118,14 +133,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="682" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1612068468824" />
-    <state x="491" y="31" key="CommitChangelistDialog2" timestamp="1612071891390">
+    <state x="491" y="31" key="CommitChangelistDialog2" timestamp="1612072040570">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="491" y="31" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612071891390" />
-    <state x="1259" y="291" key="FileChooserDialogImpl" timestamp="1612065496294">
+    <state x="491" y="31" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612072040570" />
+    <state x="1259" y="291" key="FileChooserDialogImpl" timestamp="1612071989571">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1259" y="291" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1612065496294" />
+    <state x="1259" y="291" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1612071989571" />
     <state x="1351" y="448" key="Github.ShareDialog" timestamp="1612060814314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -150,10 +165,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612071352469" />
-    <state x="461" y="184" key="SettingsEditor" timestamp="1612065505451">
+    <state x="461" y="184" key="SettingsEditor" timestamp="1612072110417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1612065505451" />
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1612072110417" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1612071737899">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
