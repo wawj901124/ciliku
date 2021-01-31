@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="287f7510-781b-48ae-9a9f-b61c41d0be33" name="Default Changelist" comment="" />
+    <list default="true" id="287f7510-781b-48ae-9a9f-b61c41d0be33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,6 +206,7 @@
       <updated>1612060692112</updated>
       <workItem from="1612060693682" duration="3677000" />
       <workItem from="1612064896564" duration="22638000" />
+      <workItem from="1612089494030" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="适配django2.1的xadmin">
       <created>1612071388232</created>
@@ -268,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612089426345</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="适配django2.1的xadmin">
+      <created>1612089565346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612089565346</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,10 +304,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="682" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1612068468824" />
-    <state x="491" y="31" key="CommitChangelistDialog2" timestamp="1612089424995">
+    <state x="491" y="31" key="CommitChangelistDialog2" timestamp="1612089563768">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="491" y="31" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612089424995" />
+    <state x="491" y="31" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612089563768" />
     <state x="1259" y="291" key="FileChooserDialogImpl" timestamp="1612089337941">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -330,10 +340,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1612072110417" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1612071737899">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1612089606961">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1612071737899" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1612089606961" />
     <state x="769" y="433" key="git4idea.ui.GitResetDialog" timestamp="1612071730717">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
