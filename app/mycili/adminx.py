@@ -1,7 +1,7 @@
 import xadmin
 from .models import videoCiLi
 
-class videoCiLiAdminx(object):
+class videoCiLiAdmin(object):
     ziduan = ['web', 'category', 'original_title', 'actress', 'size', 'step_riding', 'time', 'magnetic_force', 'preview_one', 'preview_two', 'preview_three']
 
     list_display =ziduan#定义显示的字段
@@ -19,9 +19,17 @@ class videoCiLiAdminx(object):
     # list_display_links = []   #设置点击链接进入编辑页面的字段
     # date_hierarchy = 'add_time'   #详细时间分层筛选，未生效
     # show_detail_fields = []   #显示数据详情
+    #批量删除
+    def patch_delete(self,request,querset):
+        querset.delete()  #批量删除
+
+    patch_delete.short_description = "批量删除"
 
 
-xadmin.site.register(videoCiLi, videoCiLiAdminx) #在xadmin中注册Report
+    actions = [patch_delete,]
+
+
+xadmin.site.register(videoCiLi, videoCiLiAdmin) #在xadmin中注册Report
 
 
 

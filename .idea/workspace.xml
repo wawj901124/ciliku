@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="287f7510-781b-48ae-9a9f-b61c41d0be33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/mycili/adminx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mycili/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/users/adminx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/users/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changyong/Python中列表元素排列组合.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changyong/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changyong/wenjian.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changyong/中文翻译成英文.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changyong/列表数据两两组合.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changyong/根据中文获取英文.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changyong/获取文件每行等号前的第一个元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changyong/获取某个元素在列表中的所有下表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extra_apps/xadmin/适配django2.1以后的django2版本" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/auto_make_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/get_file_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/handle_excel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/handle_excel/create_get_exceldata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/handle_excel/create_return_exceldata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/handle_excel/exceldata/cili.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/handle_excel/exceldata/dataresult.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/handle_excel/make_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/handle_excel/operation_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/handle_excel/static_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/myLogs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mycili/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/mycili/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mycili/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/mycili/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ciliku/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciliku/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/migrations/0002_log.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/migrations/0003_auto_20160715_0100.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/widgets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/适配django2.1" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mycili/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/mycili/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/actions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +54,7 @@
       <recent name="D:\PycharmProjects\ciliku\app\users" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.获取文件每行等号前的第一个元素">
+  <component name="RunManager" selected="Django Server.ciliku">
     <configuration name="根据中文获取英文" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ciliku" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +210,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612060692112</updated>
       <workItem from="1612060693682" duration="3677000" />
-      <workItem from="1612064896564" duration="17255000" />
+      <workItem from="1612064896564" duration="18230000" />
     </task>
     <task id="LOCAL-00001" summary="适配django2.1的xadmin">
       <created>1612071388232</created>
@@ -276,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612072120850</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="适配django2.1的xadmin">
+      <created>1612082958500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612082958500</updated>
+    </task>
+    <task id="LOCAL-00006" summary="适配django2.1的xadmin">
+      <created>1612083038115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612083038115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,10 +280,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="682" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1612068468824" />
-    <state x="491" y="31" key="CommitChangelistDialog2" timestamp="1612072119955">
+    <state x="491" y="31" key="CommitChangelistDialog2" timestamp="1612083037161">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="491" y="31" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612072119955" />
+    <state x="491" y="31" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612083037161" />
     <state x="1259" y="291" key="FileChooserDialogImpl" timestamp="1612072841653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -318,22 +296,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1030" y="322" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612060844977" />
-    <state width="1860" height="170" key="GridCell.Tab.0.bottom" timestamp="1612082148196">
+    <state width="930" height="170" key="GridCell.Tab.0.bottom" timestamp="1612083864910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612082148196" />
-    <state width="1860" height="170" key="GridCell.Tab.0.center" timestamp="1612082148196">
+    <state width="930" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612083864910" />
+    <state width="930" height="170" key="GridCell.Tab.0.center" timestamp="1612083864910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="170" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612082148196" />
-    <state width="1860" height="170" key="GridCell.Tab.0.left" timestamp="1612082148196">
+    <state width="930" height="170" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612083864910" />
+    <state width="930" height="170" key="GridCell.Tab.0.left" timestamp="1612083864910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="170" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612082148196" />
-    <state width="1860" height="170" key="GridCell.Tab.0.right" timestamp="1612082148196">
+    <state width="930" height="170" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612083864910" />
+    <state width="930" height="170" key="GridCell.Tab.0.right" timestamp="1612083864910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1860" height="170" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612082148196" />
+    <state width="930" height="170" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612083864910" />
     <state x="461" y="184" key="SettingsEditor" timestamp="1612072110417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
