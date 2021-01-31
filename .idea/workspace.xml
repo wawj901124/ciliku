@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="287f7510-781b-48ae-9a9f-b61c41d0be33" name="Default Changelist" comment="适配django2.1的xadmin">
+      <change beforePath="$PROJECT_DIR$/ciliku/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ciliku/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/ciliku" />
+  </component>
+  <component name="ProjectId" id="1noe6BAATTdb79xl7eq8sZg2Tqv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/extra_apps/xadmin/views" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\ciliku\app" />
+      <recent name="D:\PycharmProjects\ciliku" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\ciliku\extra_apps\xadmin\views" />
+      <recent name="D:\PycharmProjects\ciliku\extra_apps" />
+      <recent name="D:\PycharmProjects\ciliku" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ciliku" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ciliku" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ciliku.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Evns\blog\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8001" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="287f7510-781b-48ae-9a9f-b61c41d0be33" name="Default Changelist" comment="" />
+      <created>1612060692112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612060692112</updated>
+      <workItem from="1612060693682" duration="3677000" />
+      <workItem from="1612064896564" duration="6804000" />
+    </task>
+    <task id="LOCAL-00001" summary="适配django2.1的xadmin">
+      <created>1612071388232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612071388232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="适配django2.1的xadmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配django2.1的xadmin" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="122" key="#ciliku" timestamp="1612065661020">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="656" y="122" key="#ciliku/0.0.1920.1080@0.0.1920.1080" timestamp="1612065661020" />
+    <state x="615" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612065633100">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="615" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612065633100" />
+    <state x="682" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612068468824">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="682" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1612068468824" />
+    <state x="491" y="31" key="CommitChangelistDialog2" timestamp="1612071891390">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="491" y="31" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612071891390" />
+    <state x="1259" y="291" key="FileChooserDialogImpl" timestamp="1612065496294">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1259" y="291" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1612065496294" />
+    <state x="1351" y="448" key="Github.ShareDialog" timestamp="1612060814314">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1351" y="448" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612060814314" />
+    <state x="1030" y="322" key="Github.UntrackedFilesDialog" timestamp="1612060844977">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1030" y="322" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612060844977" />
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1612071352470">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612071352470" />
+    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1612071352469">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612071352469" />
+    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1612071352469">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612071352469" />
+    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1612071352469">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612071352469" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1612065505451">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1612065505451" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1612071737899">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1612071737899" />
+    <state x="769" y="433" key="git4idea.ui.GitResetDialog" timestamp="1612071730717">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="769" y="433" key="git4idea.ui.GitResetDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612071730717" />
+  </component>
+</project>
