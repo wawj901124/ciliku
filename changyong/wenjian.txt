@@ -1,0 +1,21 @@
+web = models.CharField(max_length=100, default="", verbose_name=u"网页")
+
+category = models.CharField(max_length=100, default="", verbose_name=u"类别")
+
+original_title = models.CharField(max_length=100, default="", verbose_name=u"片名")
+
+actress = models.CharField(max_length=100, default="", verbose_name=u"女优")
+
+size = models.CharField(max_length=100, default="", verbose_name=u"大小")
+
+step_riding = models.CharField(max_length=100, default="", verbose_name=u"步骑")
+
+time = models.CharField(max_length=100, default="", verbose_name=u"时间")
+
+magnetic_force = models.CharField(max_length=1500, default="", verbose_name=u"磁力")
+
+preview_one = models.CharField(max_length=1500, default="", verbose_name=u"预览1")
+
+preview_two = models.CharField(max_length=1500, default="", verbose_name=u"预览2")
+
+preview_three = models.CharField(max_length=1500, default="", verbose_name=u"预览3")
