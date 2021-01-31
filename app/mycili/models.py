@@ -95,9 +95,153 @@ class videoCiLi(models.Model):#继承django的Model模块
     def __str__(self):#重载函数
         return str(self.original_title)
 
-    # def go_to(self):   #定义点击后跳转到某一个地方（可以加html代码）
-    #     from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
-    #     return mark_safe("<a href='{}/testdatas/loginandcheckcopy/{}/'>复制新加</a>".format(DJANGO_SERVER_YUMING,self.id))
-    #     # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
-    #
-    # go_to.short_description = u"复制新加"   #为go_to函数名个名字
+    def magnetic_force_data(self):   #定义点击后跳转到某一个地方（可以加html代码）
+        from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
+        return mark_safe("<a href='{}'>磁力链接</a>".format(self.magnetic_force))
+        # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
+
+    magnetic_force_data.short_description = u"磁力链接"   #为go_to函数名个名字
+
+    def preview_one_image(self):  # 定义点击后跳转到某一个地方（可以加html代码）
+        from django.utils.safestring import mark_safe  # 调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
+        # html_img = "<a href='{}'><span>{}<span></a><br/><a href='{}/media/{}'> <img src='{}/media/{}' style='width:75px;height:75px;'/></a>".format(self.splider_url,self.chapter_count,DJANGO_SERVER_YUMING,self.front_cover_img,DJANGO_SERVER_YUMING,self.front_cover_img)
+        html_tou = """
+                                <!DOCTYPE html> 
+                                <html> 
+                                    <head> 
+                                        <meta charset="utf-8" /> 
+                                        <title>大图</title> 
+
+                                                <script type="text/javascript">
+                                                $(function () {
+                                                    var imglist = document.getElementsByTagName("img");
+                                                    //安卓4.0+等高版本不支持window.screen.width，安卓2.3.3系统支持
+                                                    var _width;
+                                                    doDraw();
+
+                                                    window.onresize = function () {
+                                                        //捕捉屏幕窗口变化，始终保证图片根据屏幕宽度合理显示
+                                                        doDraw();
+                                                    }
+
+                                                    function doDraw() {
+                                                        _width = window.innerWidth;
+                                                        for (var i = 0, len = imglist.length; i < len; i++) {
+                                                            DrawImage(imglist[i], _width);
+                                                        }
+                                                    }
+
+                                                    function DrawImage(ImgD, _width) {
+                                                        var image = new Image();
+                                                        image.src = ImgD.src;
+                                                        image.onload = function () {
+                                                            //限制，只对宽高都大于30的图片做显示处理
+                                                            if (image.width > 30 && image.height > 30) {
+                                                                if (image.width > _width) {
+                                                                    ImgD.width = _width;
+                                                                    ImgD.height = (image.height * _width) / image.width;
+                                                                } else {
+                                                                    ImgD.width = image.width;
+                                                                    ImgD.height = image.height;
+                                                                }
+
+                                                            }
+                                                        }
+
+                                                    }
+
+                                                })
+                                        </script>
+                                    </head> 
+                                    <body>"""
+        html_img = """  <!--a href='#'><span>#<span></a-->
+                        <br/>
+                        <div onclick='$(".my_set_image_img").hide();$(this).next().show();'>
+                        <img src='{}' style='width:50px;height:50px;'>
+                        <br/>点击可看大图
+                        </div>
+                        <div class='my_set_image_img' onclick="$('.my_set_image_img').hide()" style="z-index:9999;position:fixed; left: 100px; top:100px;display:none; width:auto; height:auto;">
+                        <img src='{}' style='width:100px; height:100px;'>
+                        </div>""".format(self.preview_one,
+                                         self.preview_one)
+        html_wei = """
+                                </body> 
+                        </html>
+                   """
+        html_all = html_tou + html_img + html_wei
+        return mark_safe(html_all)
+        # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
+
+    preview_one_image.short_description = u"预览图1"  # 为go_to函数名个名字
+
+    def title_tu(self):
+        title_html ="""<span>{}<span><br/>""" .format(self.original_title)
+        html_tou = """
+                                <!DOCTYPE html> 
+                                <html> 
+                                    <head> 
+                                        <meta charset="utf-8" /> 
+                                        <title>大图</title> 
+
+                                                <script type="text/javascript">
+                                                $(function () {
+                                                    var imglist = document.getElementsByTagName("img");
+                                                    //安卓4.0+等高版本不支持window.screen.width，安卓2.3.3系统支持
+                                                    var _width;
+                                                    doDraw();
+
+                                                    window.onresize = function () {
+                                                        //捕捉屏幕窗口变化，始终保证图片根据屏幕宽度合理显示
+                                                        doDraw();
+                                                    }
+
+                                                    function doDraw() {
+                                                        _width = window.innerWidth;
+                                                        for (var i = 0, len = imglist.length; i < len; i++) {
+                                                            DrawImage(imglist[i], _width);
+                                                        }
+                                                    }
+
+                                                    function DrawImage(ImgD, _width) {
+                                                        var image = new Image();
+                                                        image.src = ImgD.src;
+                                                        image.onload = function () {
+                                                            //限制，只对宽高都大于30的图片做显示处理
+                                                            if (image.width > 30 && image.height > 30) {
+                                                                if (image.width > _width) {
+                                                                    ImgD.width = _width;
+                                                                    ImgD.height = (image.height * _width) / image.width;
+                                                                } else {
+                                                                    ImgD.width = image.width;
+                                                                    ImgD.height = image.height;
+                                                                }
+
+                                                            }
+                                                        }
+
+                                                    }
+
+                                                })
+                                        </script>
+                                    </head> 
+                                    <body>"""
+        html_img = """  <!--a href='#'><span>#<span></a-->
+                        <br/>
+                        <div onclick='$(".my_set_image_img").hide();$(this).next().show();'>
+                        <img src='{}' style='width:50px;height:50px;'>
+                        <br/>点击可看大图
+                        </div>
+                        <div class='my_set_image_img' onclick="$('.my_set_image_img').hide()" style="z-index:9999;position:fixed; left: 100px; top:100px;display:none; width:auto; height:auto;">
+                        <img src='{}' style='width:100px; height:100px;'>
+                        </div>""".format(self.preview_one,
+                                         self.preview_one)
+        html_wei = """
+                                </body> 
+                        </html>
+                   """
+        html_all =title_html+ html_tou + html_img + html_wei
+        from django.utils.safestring import mark_safe  # 调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
+        return mark_safe(html_all)
+
+    title_tu.short_description = u"片名"
+

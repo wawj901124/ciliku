@@ -7,10 +7,14 @@ my_list = []
 
 qianzui = "new_udd."
 houzui = "qs_one."
+num = 0
 for i in f:
     if "=" in i:
         yuqi = i.split("=")[0].strip()
-        print(yuqi)
+        # print(yuqi)
+        one = """            vcl.%s = excel_%s"""%(yuqi,str(num))
+        print(one)
+        num = num+1
         my_list.append(yuqi)
 
 print(my_list)
